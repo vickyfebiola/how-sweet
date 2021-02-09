@@ -1,61 +1,69 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# How Sweet
+How Sweet adalah sebuah website layanan berbagi resep dessert di dunia, menyediakan wadah bagi setiap orang di seluruh dunia untuk berbagi resep dan mencari resep dengan cara yang mudah, rapi dan menyenangkan.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Fitur
+Website ini memiliki 2 sisi pengguna yaitu administrator dan user.
+Berikut merupakan fitur yang akan disediakan pada masing-masing role :
 
-## About Laravel
+### Admin
+Pada role Admin, fitur yang tersedia yaitu :
+1. Melakukan halaman login
+2. Mengakses halaman admin
+3. Melihat data admin
+4. Mengedit data admin
+5. Menghapus data admin
+6. Menambah data admin
+7. Melihat data content/documentation
+8. Mengedit data content/documentation
+9. Menghapus data content/documentation
+10. Menambah data content/documentation
+11. Mengakses ke halaman website utama (How Sweet)
+12. Melakukan logout
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### User
+Pada role User, fitur yang tersedia yaitu :
+1. Melihat/mengakses website utama
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Teknologi Yang Digunakan
+- Backend: PHP v 7.4
+- Framework PHP : Laravel Laravel 7
+- Dashboard template : SB Admin 2
+- Dashboard Index : Butterfly
+- Database : mysql
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Preview Website
+- Halaman Website How Sweet
+![image](https://user-images.githubusercontent.com/30969526/107348892-2deff180-6afa-11eb-995d-af56b692f210.png)
 
-## Learning Laravel
+- Halaman About How Sweet
+![image](https://user-images.githubusercontent.com/30969526/107349081-60015380-6afa-11eb-90c2-44ff439d6b95.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-Halaman Explore How Sweet
+![image](https://user-images.githubusercontent.com/30969526/107349289-a060d180-6afa-11eb-8fe2-d8fb2a3f979d.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Halaman Team How Sweet
+![image](https://user-images.githubusercontent.com/30969526/107349429-c8e8cb80-6afa-11eb-972b-5485228424cd.png)
 
-## Laravel Sponsors
+- Halaman Detail Item/Resep
+![image](https://user-images.githubusercontent.com/30969526/107349699-1c5b1980-6afb-11eb-87b4-33f9608251df.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- Halaman Detail Content
+![image](https://user-images.githubusercontent.com/30969526/107349575-f59ce300-6afa-11eb-8aed-8f9feea0bb42.png)
 
-### Premium Partners
+- Halaman Login Admin
+![image](https://user-images.githubusercontent.com/30969526/107348747-026d0700-6afa-11eb-9809-a171f067ad61.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+- Dashboard Admin
+![image](https://user-images.githubusercontent.com/30969526/107348205-4f041280-6af9-11eb-8694-298adeb81e40.png)
 
-## Contributing
+- Halaman Data Admin
+![image](https://user-images.githubusercontent.com/30969526/107348070-211ece00-6af9-11eb-85ef-0a715b183912.png)
+ 
+- Halaman Data Content/Documentation
+![image](https://user-images.githubusercontent.com/30969526/107348378-81ae0b00-6af9-11eb-8973-eb94d3531367.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Halaman Create Data
+![image](https://user-images.githubusercontent.com/30969526/107348500-ac985f00-6af9-11eb-9b3e-79978a8fa93d.png)
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Halaman Edit Data
+![image](https://user-images.githubusercontent.com/30969526/107348556-c5087980-6af9-11eb-9bbd-b2b823d23931.png)
