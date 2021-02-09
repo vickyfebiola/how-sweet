@@ -39,7 +39,7 @@ class DataController extends Controller
         $request->validate([
             'judul' => 'required|min:3|max:255',
             'gambar' => 'required|file|image|max:1000',
-            'deskripsi' => 'required|max:255',
+            'deskripsi' => 'required',
         ]);
         $data = new Content();
         $data->judul = $request->judul;
@@ -64,7 +64,7 @@ class DataController extends Controller
         $request->validate([
             'judul' => 'required|min:3|max:255',
             'gambar' => 'file|image|max:1000',
-            'deskripsi' => 'required|max:255',
+            'deskripsi' => 'required',
         ]);
         $data = Content::find($id);
         $data->judul = $request->judul;

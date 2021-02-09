@@ -3,16 +3,10 @@
     <!-- Begin Page Content -->
     <div>
 
-        <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-        <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-            For more information about DataTables, please visit the <a target="_blank"
-                href="https://datatables.net">official DataTables documentation</a>.</p>
-
-        <!-- DataTales Example -->
+      <!-- DataTales Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Edit Data</h6>
             </div>
             <div class="card-body">
                 <form action="{{ route('content.update',['id' => $content->id]) }}" method="post" enctype="multipart/form-data">
@@ -35,11 +29,11 @@
                                 {{ $message }}
                             </div>
                         @enderror
-                        <img src="/../{{ $content->gambar }}" style="height: 200px;">
+                        <img src="/../{{ $content->gambar }}" style="height: 400px;">
                     </div>
                     <div class="form-group">
                         <label for="deskripsi">Deskripsi</label>
-                        <input type="deskripsi" name="deskripsi" class="form-control" placeholder="Deskripsi" value="{{ $content->deskripsi }}">
+                        <textarea type="deskripsi" name="deskripsi" class="form-control" placeholder="Deskripsi" style="width: 100%; height: 400px;">{{ $content->deskripsi }}</textarea>
                         @error('deskripsi')
                             <div class="text-danger">
                                 {{ $message }}

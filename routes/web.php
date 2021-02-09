@@ -13,14 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// login admin
+Route::get('/login', 'AdminController@login')->name('login');
+Route::get('/logout', 'AdminController@logout')->name('logout');
+Route::post('/login', 'AdminController@process')->name('login.process');
 
 // site admin 
 Route::get('/admin', 'AdminController@index' )->name('admin.index')->middleware('login_auth');
-
-// login admin
-Route::get('/login', 'AdminController@login')->name('login.index');
-Route::get('/logout', 'AdminController@logout')->name('login.logout');
-Route::post('/login', 'AdminController@process')->name('login.process');
 
 // read data admin
 Route::get('/admin/data','AdminController@data')->name('admin.data')->middleware('login_auth');
@@ -54,5 +53,6 @@ Route::get('/data/delete/{id}','DataController@destroy')->name('content.destroy'
 // site user
 Route::get('/', 'MyController@index' )->name('index');
 Route::get('/detail/{id}', 'MyController@detail' )->name('detail');
+Route::get('/explore', 'MyController@explore' )->name('explore');
 
 

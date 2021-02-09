@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Butterfly Bootstrap Template</title>
+  <title>Details - How Sweet</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -62,14 +62,16 @@
     <section id="content-details" class="content-details">
       <div class="container">
         <div class="content-details-container" style="text-align: center;">
-          <img src="../{{ $content->gambar }}" class="img-fluid" alt="" style="height: 500px; object-fit: cover;">
+          <img src="../{{ $content->gambar }}" class="img-fluid" alt="" style="height: 500px; width: 900px; object-fit: cover;">
         </div>
 
-        <div class="content-description">
+          <div class="content-description">
           <h2>{{ $content->judul }}</h2>
+
           <p>
-            {{ $content->deskripsi }}
+            {!! nl2br(e($content->deskripsi)) !!}
           </p>
+
         </div>
 
       </div>
@@ -79,13 +81,6 @@
     <div class="container py-4">
       <div class="copyright">
         &copy; Copyright <strong><span>Butterfly</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/butterfly-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer>
