@@ -1,5 +1,12 @@
 # How Sweet
 How Sweet adalah sebuah website layanan berbagi resep dessert di dunia, menyediakan wadah bagi setiap orang di seluruh dunia untuk berbagi resep dan mencari resep dengan cara yang mudah, rapi dan menyenangkan.
+### Link Website How Sweet : (http://how-sweet.rifkiystark.tech/)
+### Link Site Admin : (http://how-sweet.rifkiystark.tech/admin)
+*** note ***
+admin account :
+- username : admin
+- password : admin
+
 
 ## Fitur
 Website ini memiliki 2 sisi pengguna yaitu administrator dan user.
@@ -24,7 +31,7 @@ Pada role Admin, fitur yang tersedia yaitu :
 Pada role User, fitur yang tersedia yaitu :
 1. Melihat/mengakses website utama
 
-## Teknologi Yang Digunakan
+## Tools
 - Backend: PHP v 7.4
 - Framework PHP : Laravel Laravel 7
 - Dashboard template : SB Admin 2
@@ -38,7 +45,7 @@ Pada role User, fitur yang tersedia yaitu :
 - Halaman About How Sweet
 ![image](https://user-images.githubusercontent.com/30969526/107349081-60015380-6afa-11eb-90c2-44ff439d6b95.png)
 
--Halaman Explore How Sweet
+- Halaman Explore How Sweet
 ![image](https://user-images.githubusercontent.com/30969526/107349289-a060d180-6afa-11eb-8fe2-d8fb2a3f979d.png)
 
 - Halaman Team How Sweet
